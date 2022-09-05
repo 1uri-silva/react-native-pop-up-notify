@@ -1,0 +1,12 @@
+{
+  "name": "notifybotton",
+  "displayName": "notify-botton",
+  "expo": {
+    "name": "notify-botton",
+    "slug": "notify-botton",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
