@@ -1,0 +1,49 @@
+{
+	"env": {
+		"es2021": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"standard-with-typescript",
+		"plugin:react-hooks/recommended"
+	],
+	"overrides": [],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"sourceType": "module",
+		"project": ["./tsconfig.json"],
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest"
+	},
+	"plugins": ["react", "react-hooks"],
+	"rules": {
+		"no-tabs": "off",
+		"comma-dangle": "off",
+		"@typescript-eslint/semi": "off",
+		"no-mixed-spaces-and-tabs": "off",
+		"@typescript-eslint/indent": "off",
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"@typescript-eslint/member-delimiter-style": [
+			"warn",
+			{
+				"multiline": {
+					"delimiter": "semi",
+					"requireLast": true
+				},
+				"singleline": {
+					"delimiter": "semi",
+					"requireLast": false
+				}
+			}
+		]
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	}
+}

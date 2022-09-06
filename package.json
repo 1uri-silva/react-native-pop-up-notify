@@ -1,37 +1,65 @@
 {
-  "name": "notify-botton",
+  "name": "react-native-pop-up",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "An Pop-up library create with expo react native",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest"
+    "start": "expo start",
+    "lint": "eslint --fix \"**/*.{ts,tsx}\""
   },
   "dependencies": {
-    "expo": "~41.0.1",
-    "expo-updates": "~0.5.4",
-    "expo-splash-screen": "~0.10.2",
+    "expo": "44.0.6",
+    "expo-splash-screen": "~0.14.1",
+    "expo-updates": "~0.11.7",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "react-native": "~0.63.4",
-    "react-native-gesture-handler": "~1.10.2",
-    "react-native-reanimated": "~2.1.0",
-    "react-native-screens": "~3.0.0",
-    "react-native-unimodules": "~0.13.3",
+    "react-native": "0.64.3",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-reanimated": "~2.3.1",
+    "react-native-screens": "~3.10.1",
+    "react-native-unimodules": "~0.15.0",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.36.2",
     "babel-preset-expo": "~8.3.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^22.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.6",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "jest-expo": "~41.0.0",
-    "typescript": "~4.0.0"
+    "typescript": "*"
   },
   "jest": {
     "preset": "react-native"
   },
-  "private": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1uri-silva/react-native-pop-up.git"
+  },
+  "keywords": [
+    "snackbar",
+    "material",
+    "design",
+    "android",
+    "ios",
+    "notifications",
+    "react-native"
+  ],
+  "author": "1uri-silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1uri-silva/react-native-pop-up/issues"
+  },
+  "homepage": "https://github.com/1uri-silva/react-native-pop-up#readme"
 }
