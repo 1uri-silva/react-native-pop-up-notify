@@ -1,5 +1,5 @@
 {
-  "name": "react-native-pop-up-notify",
+  "name": "react-native-pop-up-notify-notify",
   "version": "1.0.0",
   "main": "index.js",
   "description": "An Pop-up library create with expo react native",
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1uri-silva/react-native-pop-up.git"
+    "url": "git+https://github.com/1uri-silva/react-native-pop-up-notify.git"
   },
   "keywords": [
     "snackbar",
@@ -61,7 +61,7 @@
   "author": "1uri-silva",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/1uri-silva/react-native-pop-up/issues"
+    "url": "https://github.com/1uri-silva/react-native-pop-up-notify/issues"
   },
-  "homepage": "https://github.com/1uri-silva/react-native-pop-up#readme"
+  "homepage": "https://github.com/1uri-silva/react-native-pop-up-notify#readme"
 }

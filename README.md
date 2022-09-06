@@ -1,17 +1,17 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/rd-easy/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/rd-easy/README-template?style=for-the-badge)
 
-# react-native-pop-up
+# react-native-pop-up-notify
 
 An Pop-up library create with expo react native
 
-![Snackbar demo](./assets//pop-up.gif)
+![Snackbar demo](./assets/pop-up.gif)
 ## Getting Started
 
 ### Installing
 
 ```bash
-  $ npm install react-native-pop-up
+  $ npm install react-native-pop-up-notify
 ```
 
 ### Using
@@ -47,4 +47,4 @@ Contributors names and contact info
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENCE) para mais detalhes.
 
-[⬆ Voltar ao topo](#calcula-cotas)
+[⬆ Voltar ao topo](#react-native-pop-up-notify)
