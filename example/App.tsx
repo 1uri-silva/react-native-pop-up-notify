@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
-import { Card, PopUp } from './src';
+import { Card, PopUp } from '../src';
 
 const App: React.FC = () => {
 	return (
