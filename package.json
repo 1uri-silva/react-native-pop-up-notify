@@ -1,6 +1,6 @@
 {
-  "name": "react-native-pop-up-notify-notify",
-  "version": "1.0.1",
+  "name": "react-native-pop-up-notify",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "An Pop-up library create with expo react native",
   "scripts": {
